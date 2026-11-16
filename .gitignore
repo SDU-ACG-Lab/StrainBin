@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+.venv/
+output/
+*.log
+# Auxiliary compiler intermediates; keep the bundled executables.
+/Auxiliary/**/*.o
+/Auxiliary/**/*.a
+/Auxiliary/**/autom4te.cache/
+# Keep the compressed test inputs; extracted copies are generated locally.
+/tests/SRR18495437/assembly.fasta
+/tests/SRR18495437/assembly_graph.gfa
+# Do not add sequencing reads, alignments, or training checkpoints.
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.sam
+*.sra
+*.pt
+*.pth
+*.pth.tar

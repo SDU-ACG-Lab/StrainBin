@@ -1,0 +1,5 @@
+* text=auto
+*.gz binary
+*.hmmout text eol=lf
+*.tsv text eol=lf
+*.csv text eol=lf
